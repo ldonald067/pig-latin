@@ -1,4 +1,4 @@
-##P ig Latin convertor
+## Pig Latin convertor
 
 ## Page that converts input text to pig latin, 3.29.2017
 
@@ -17,35 +17,42 @@
 
 ## Specs
 
-* Recognize a not a letter
+#### Recognize that its not a letter
 
-* Input = 7
-* Output = 7
-* Recognize a single vowel
+* Input = 3
+* Output = 3
+
+#### Recognize a single vowel
 
 * Input = a
-* Output = aay
-* Recognize word beginning with vowel
+* Output = ay
+
+#### Recognize word beginning with vowel
 
 * Input = apple
 * Output = appleay
-* Recognize words beginning with 'qu'
+
+#### Recognize words beginning with 'qu'
 
 * Input = quest
-Output = estquay
-Recognize words beginning with 'squ'
+* Output = estquay
+
+#### Recognize words beginning with 'squ'
 
 * Input = squeal
 * Output = ealsquay
-* Recognize word beginning with two consecutive consonants
+
+#### Recognize word beginning with two consecutive consonants
 
 * Input = this
 * Output = isthay
-* Recognize word beginning with a single consonant
+
+#### Recognize word beginning with a single consonant
 
 * Input = hello
 * Output = ellohay
-* Recognize regardless of upper case/lower case
+
+#### Recognize regardless of upper case/lower case
 
 * Input = Apple
 * Output = Appeay
